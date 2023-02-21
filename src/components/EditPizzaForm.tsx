@@ -36,25 +36,25 @@ const EditPizzaForm: FC<EditPizzaFormProps> = ({ data, updatePizza, handleToggle
       <input
         name="title"
         type="text"
-        placeholder="Название"
+        placeholder="Name"
         onChange={handleChange}
         value={editPizza.title}
       />
       <input
         name="price"
         type="text"
-        placeholder="Стоимость"
+        placeholder="Price"
         onChange={handleChange}
         value={editPizza.price}
       />
       <input
         name="img"
         type="text"
-        placeholder="Изображение"
+        placeholder="Image"
         onChange={handleChange}
         value={editPizza.img}
       />
-      <button type="submit">Подтвердить</button>
+      <button type="submit">Confirm</button>
     </form>
   );
 };
